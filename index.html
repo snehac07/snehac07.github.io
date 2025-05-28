@@ -3,68 +3,101 @@
 <head>
   <meta charset="UTF-8" />
   <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-  <title>Sneha - Portfolio</title>
+  <title>Your Name - Portfolio</title>
+
+  <!-- ✅ Google Fonts (Roboto + Playfair Display) -->
+  <link href="https://fonts.googleapis.com/css2?family=Playfair+Display:wght@700&family=Roboto&display=swap" rel="stylesheet" />
+
+  <!-- ✅ Font Awesome Icons -->
+  <script src="https://kit.fontawesome.com/a076d05399.js" crossorigin="anonymous"></script>
+
   <style>
     body {
-      font-family: Arial, sans-serif;
-      margin: 0; padding: 0;
+      font-family: 'Roboto', sans-serif;
+      margin: 0;
+      padding: 0;
       background: #f9f9f9;
       color: #333;
       text-align: center;
     }
+
     header {
       background-color: #4CAF50;
       color: white;
       padding: 2rem 1rem;
+      font-family: 'Playfair Display', serif;
     }
+
     section {
       padding: 2rem 1rem;
       max-width: 800px;
       margin: auto;
     }
+
     h1, h2 {
       margin-bottom: 0.5rem;
     }
+
     a {
       color: #4CAF50;
       text-decoration: none;
     }
+
+    ul {
+      list-style: none;
+      padding: 0;
+    }
+
     footer {
       margin-top: 3rem;
       padding: 1rem;
       background: #eee;
     }
+
+    .icon {
+      margin: 0 10px;
+      font-size: 1.5rem;
+    }
   </style>
 </head>
 <body>
   <header>
-    <h1>Sneha Chandrashekhar</h1>
-    <p>WordPress Developer</p>
+    <h1>Your Name</h1>
+    <p>Web Developer <i class="fas fa-code"></i> Designer <i class="fas fa-paint-brush"></i> Creator</p>
   </header>
 
   <section>
     <h2>About Me</h2>
-    <p>Hello! I’m Sneha Chandrashekhar — a WordPress developer who loves building websites that are clean, fast, and easy to use. I’ve been helping small businesses and creative professionals get online with custom WordPress sites, WooCommerce stores, and SEO-friendly designs. I enjoy turning ideas into websites that actually work. Let’s build something great together!
-      This is my personal portfolio site hosted with GitHub Pages.</p>
+    <p>Hello! I'm a passionate developer building things for the web. This is my personal portfolio site hosted with GitHub Pages.</p>
   </section>
 
   <section>
     <h2>Projects</h2>
-    <ul style="list-style: none; padding: 0;">
-      <li><strong><a href="https://trusteddoors.com/">Real Estate Website</a></strong> – A cool thing I built.</li>
-      <li><strong><a href="https://retinkmedia.com/">Marketing Agency</a></strong> – Another awesome project.</li>
-      <li><strong><a href="https://cibanos.com/">Wellness Store</a></strong> – Another awesome project.</li>
+    <ul>
+      <li>
+        <strong><a href="https://github.com/yourusername/project1">Project 1</a></strong> –
+        A cool thing I built <i class="fas fa-laptop-code icon"></i>
+      </li>
+      <li>
+        <strong><a href="https://github.com/yourusername/project2">Project 2</a></strong> –
+        Another awesome project <i class="fas fa-rocket icon"></i>
+      </li>
     </ul>
   </section>
 
   <section>
     <h2>Contact</h2>
-    <p>Email: snehac.07@gmail.com</p>
-    <p><a href="https://www.linkedin.com/in/sneha-chandrashekhar/">LinkedIn</a></p>
+    <p><i class="fas fa-envelope icon"></i> yourname@example.com</p>
+    <p>
+      <a href="https://github.com/yourusername" class="icon"><i class="fab fa-github"></i></a>
+      <a href="https://linkedin.com/in/yourprofile" class="icon"><i class="fab fa-linkedin"></i></a>
+      <a href="mailto:yourname@example.com" class="icon"><i class="fas fa-envelope"></i></a>
+    </p>
   </section>
 
   <footer>
-    &copy; 2025 Sneha. All rights reserved.
+    &copy; 2025 Your Name. All rights reserved.
   </footer>
 </body>
 </html>
+
