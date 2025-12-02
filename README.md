@@ -1,9 +1,7 @@
 <h1 align="center">Portfolio Website</h1>
 
-<h2 align="center">DanielEzekiel.me - v1</h2>
-<h4 align="center">-- HTML, CSS, JavaScript --</h4>
+<h2 align="center">Sneha Chandrashekhar</h2>
 
-This is the first version of my [**portfolio website**](https://www.danielezekiel.me). I designed it in Figma and developed it using HTML, CSS and JavaScript to showcase the different projects I have built using different tools and technologies. Hosting using GitHub pages.
+Personal portfolio website built with HTML/CSS to showcase my WordPress development projects, skills, and experience. Hosted via GitHub Pages.
 
-![](img/preview.png)
 
