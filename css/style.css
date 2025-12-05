@@ -77,7 +77,7 @@ h3 {
 .featured-projects-box h3 {
   background: -webkit-linear-gradient(
     90.98deg,
-    rgba(24, 185, 207, 0.9) -2.14%,
+    #18b9cfe6 -2.14%,
     #6688ff 103.54%
   );
   -webkit-background-clip: text;
